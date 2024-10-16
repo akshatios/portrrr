@@ -945,6 +945,37 @@ body.dark-theme{
   }
 }
 
+@media screen and (min-width: 341px) and (max-width: 575px) {
+  .container {
+    /* Add your styles for .container here */
+    margin-inline: 2rem; /* Example style */
+  }
+
+  .nav__menu {
+    /* Add your styles for .nav__menu here */
+    padding-bottom: 3rem; /* Example style */
+  }
+
+  .nav__list {
+    /* Add your styles for .nav__list here */
+    gap: 0.5rem 1rem; /* Example style */
+  }
+
+  .skills__info {
+    /* Add your styles for .skills__info here */
+    grid-template-columns: repeat(2, 1fr); /* Example style */
+  }
+
+  .projects__img {
+    /* Add your styles for .projects__img here */
+    width: 180px; /* Example style */
+    justify-self: center; /* Example style */
+  }
+
+  /* Add any additional styles as needed */
+}
+
+
 /* For medium devices */
 @media screen and (min-width: 576px){
   .nav,
@@ -975,6 +1006,8 @@ body.dark-theme{
     right: 1rem;
   }
 }
+
+
 
 @media screen and (min-width: 767px){
   .home__container{
